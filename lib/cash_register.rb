@@ -24,6 +24,6 @@ class CashRegister
     end    
   end  
 
-  def void_
+  # def void_
 
 end  
