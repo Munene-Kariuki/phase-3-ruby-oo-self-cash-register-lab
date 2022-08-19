@@ -24,6 +24,8 @@ class CashRegister
     end    
   end  
 
-  def void_
+  def void_last_transaction
+    self.total -= prev_payment
+  end  
 
 end  
